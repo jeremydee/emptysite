@@ -1,3 +1,3 @@
 <?php
-    $cLine = "Welcome to ".$_SERVER['http_host'].". The time is ".date('r');
+    $cLine = "Welcome to ".$_SERVER['HTTP_HOST'].". The time is ".date('r');
     echo $cLine;
